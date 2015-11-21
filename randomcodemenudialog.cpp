@@ -82,18 +82,10 @@ ribi::Help ribi::RandomCodeMenuDialog::GetHelp() const noexcept
   );
 }
 
-boost::shared_ptr<const ribi::Program> ribi::RandomCodeMenuDialog::GetProgram() const noexcept
-{
-  const boost::shared_ptr<const Program> p {
-    new ProgramRandomCode
-  };
-  assert(p);
-  return p;
-}
 
 std::string ribi::RandomCodeMenuDialog::GetVersion() const noexcept
 {
-  return "4.3";
+  return "5.0";
 }
 
 std::vector<std::string> ribi::RandomCodeMenuDialog::GetVersionHistory() const noexcept
@@ -105,7 +97,8 @@ std::vector<std::string> ribi::RandomCodeMenuDialog::GetVersionHistory() const n
     "2011-04-24: version 4.0: major architectural change, created web version",
     "2011-08-31: version 4.1: added Welcome picture for web version",
     "2012-12-25: version 4.2: added menu for desktop version",
-    "2014-02-24: version 4.3: added command-line version"
+    "2014-02-24: version 4.3: added command-line version",
+    "2015-11-21: version 5.0: moved to own GitHub",
   };
 }
 

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>407</width>
-    <height>565</height>
+    <height>547</height>
    </rect>
   </property>
   <property name="font">
@@ -19,8 +19,8 @@
    <string>RandomCode</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="ToolRandomCode.qrc">
-    <normaloff>:/images/ToolRandomCodeIcon14x14.png</normaloff>:/images/ToolRandomCodeIcon14x14.png</iconset>
+   <iconset resource="RandomCode.qrc">
+    <normaloff>:/images/RandomCodeIcon14x14.png</normaloff>:/images/RandomCodeIcon14x14.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">QDialog { 
@@ -57,7 +57,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolRandomCode.qrc">:/images/ToolRandomCode.png</pixmap>
+      <pixmap resource="RandomCode.qrc">:/images/RandomCode.png</pixmap>
      </property>
     </widget>
    </item>
@@ -79,7 +79,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
   <tabstop>button_quit</tabstop>
  </tabstops>
  <resources>
-  <include location="ToolRandomCode.qrc"/>
+  <include location="RandomCode.qrc"/>
  </resources>
  <connections/>
 </ui>
