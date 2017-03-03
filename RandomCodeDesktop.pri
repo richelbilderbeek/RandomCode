@@ -1,13 +1,13 @@
-include(../RandomCode/RandomCodeConsole.pri)
+include(RandomCodeConsole.pri)
 
 FORMS += \
-    ../RandomCode/qtrandomcodemenudialog.ui \
-    ../RandomCode/qtrandomcodemaindialog.ui
+    $$PWD/qtrandomcodemenudialog.ui \
+    $$PWD/qtrandomcodemaindialog.ui
 
 SOURCES += \
-    ../RandomCode/qtrandomcodemenudialog.cpp \
-    ../RandomCode/qtrandomcodemaindialog.cpp
+    $$PWD/qtrandomcodemenudialog.cpp \
+    $$PWD/qtrandomcodemaindialog.cpp
 
 HEADERS += \
-    ../RandomCode/qtrandomcodemenudialog.h \
-    ../RandomCode/qtrandomcodemaindialog.h
+    $$PWD/qtrandomcodemenudialog.h \
+    $$PWD/qtrandomcodemaindialog.h

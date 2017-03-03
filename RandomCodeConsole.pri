@@ -1,11 +1,10 @@
-INCLUDEPATH += \
-    ../RandomCode
+INCLUDEPATH += $$PWD
 
 SOURCES += \
-    ../RandomCode/randomcodemenudialog.cpp
+    $$PWD/randomcodemenudialog.cpp
 
 HEADERS += \
-    ../RandomCode/randomcodemenudialog.h
+    $$PWD/randomcodemenudialog.h
 
 RESOURCES += \
-    ../RandomCode/RandomCode.qrc
+    $$PWD/RandomCode.qrc
