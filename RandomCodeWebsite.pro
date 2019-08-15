@@ -16,14 +16,6 @@ include(RandomCodeWebsite.pri)
 
 SOURCES += wtmain.cpp
 
-
-# C++14
-CONFIG += c++14
-QMAKE_CXX = g++-5
-QMAKE_LINK = g++-5
-QMAKE_CC = gcc-5
-QMAKE_CXXFLAGS += -std=c++14
-
 # High warning levels
 # Qt does not go with -Weffc++
 QMAKE_CXXFLAGS += -Wall -Wextra -Wnon-virtual-dtor -Wshadow -pedantic -Werror
