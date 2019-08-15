@@ -9,7 +9,7 @@ install:
   # Qt5
   - sudo apt-get install -qq qt5-qmake qt5-default
   # Wt
-  - sudo apt-get install witty witty-dbg witty-dev witty-doc
+  #- sudo apt-get install witty witty-dbg witty-dev witty-doc
   # Codecov
   - sudo pip install codecov
   # OCLint
@@ -31,11 +31,11 @@ script:
   - sleep 10
   - sudo killall RandomCodeDesktop
   # Website
-  - qmake -qt=qt5 RandomCodeWebsite.pro
-  - make debug
-  - ./RandomCodeWebsite &
-  - sleep 10
-  - sudo killall RandomCodeWebsite
+  #- qmake -qt=qt5 RandomCodeWebsite.pro
+  #- make debug
+  #- ./RandomCodeWebsite &
+  #- sleep 10
+  #- sudo killall RandomCodeWebsite
   # Get code coverage
   - ./get_code_cov >/dev/null
   - codecov >/dev/null
