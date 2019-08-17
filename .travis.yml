@@ -22,17 +22,17 @@ script:
   - ./download_other_githubs
   # Console
   - qmake -qt=qt5 RandomCodeConsole.pro
-  - make debug
+  - make debug --silent
   - ./RandomCodeConsole
   # Desktop
   - qmake -qt=qt5 RandomCodeDesktop.pro
-  - make debug
+  - make debug --silent
   - ./RandomCodeDesktop &
   - sleep 10
   - sudo killall RandomCodeDesktop
   # Website
   #- qmake -qt=qt5 RandomCodeWebsite.pro
-  #- make debug
+  #- make debug --silent
   #- ./RandomCodeWebsite &
   #- sleep 10
   #- sudo killall RandomCodeWebsite
