@@ -8,8 +8,6 @@ install:
   - sudo apt install -qq libboost-all-dev
   # Qt5
   - sudo apt-get install -qq qt5-qmake qt5-default
-  # Wt
-  #- sudo apt-get install witty witty-dbg witty-dev witty-doc
   # Codecov
   - sudo pip install codecov
   # OCLint
@@ -30,12 +28,6 @@ script:
   - ./RandomCodeDesktop &
   - sleep 10
   - sudo killall RandomCodeDesktop
-  # Website
-  #- qmake -qt=qt5 RandomCodeWebsite.pro
-  #- make debug --silent
-  #- ./RandomCodeWebsite &
-  #- sleep 10
-  #- sudo killall RandomCodeWebsite
   # Get code coverage
   - ./get_code_cov >/dev/null
   - codecov >/dev/null
