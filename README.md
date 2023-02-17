@@ -15,11 +15,6 @@ Programmers' humor is great, isn't it?
 
 ![RandomCode v5.0](pics/RandomCode_5_0.png)
 
-![](ToolRandomCode_2_0.png)
-
-![](ToolRandomCode_3_0.png)
-
-
 The Windows executable of version 3.0 is created following
 [how to cross-compile a Qt Creator project from Ubuntu to a windows executable: example 15: MinGW cross-compiling environment](https://richelbilderbeek.nl/CppQtCrosscompileToWindowsExample15.htm)
 
