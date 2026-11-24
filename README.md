@@ -1,5 +1,7 @@
 # RandomCode
 
+[Go to the nicely rendered website](https://richelbilderbeek.github.io/RandomCode/).
+
 RandomCode is a simple tool that creates random C++ code. 
 I wrote it for the forums I visited: 
 when somebody was begging for code 
