@@ -1,5 +1,7 @@
 # RandomCode
 
+[![Codecov](https://codecov.io/gh/richelbilderbeek/RandomCode/branch/main/graph/badge.svg)](https://codecov.io/gh/richelbilderbeek/RandomCode)
+
 [Go to the nicely rendered website](https://richelbilderbeek.github.io/RandomCode/).
 
 RandomCode is a simple tool that creates random C++ code.
